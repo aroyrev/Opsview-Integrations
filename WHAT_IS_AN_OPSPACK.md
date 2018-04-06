@@ -12,7 +12,7 @@ For example, an Opspack may monitor:
 
 The aim of an Opspack is for a user to be able to add it to a host in Opsview Monitor, and it will provide everything the user needs to monitor that host without any further configuration.
 
-An Opspack consists of a plugin, configuration file and info file. The plugins can be written in almost any programming language and should contain the logic for how to retrieve an interprete the data from the technology/service being monitored. The config file describes how the plugins should be used. The info file just provides name and version for the Opspack.
+An Opspack consists of a plugin, configuration file and info file. The plugins can be written in almost any programming language and should contain the logic for how to retrieve an interpret the data from the technology/service being monitored. The config file describes how the plugins should be used. The info file just provides name and version for the Opspack.
 
 ## Service Checks, Metrics and Statuses
 

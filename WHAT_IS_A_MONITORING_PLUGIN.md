@@ -1,12 +1,10 @@
-# How to Create a Plugin for Opsview Monitor
+# What is a Monitoring Plugin?
 
-See Opsview Documentation on Creating Monitoring Plugins here: [Monitoring Plugins](https://knowledge.opsview.com/docs/monitoring-plugins)
 
-## What are Monitoring Plugins?
 
 Monitoring plugins are the most common and popular way of monitoring hosts. Monitoring plugins can be written in any language, from bash and C to Perl and Python, meaning anyone who can script can create plugins! In essence, a monitoring plugin is a translator that resides between Opsview Monitor and the item we wish to monitor. The plugin speaks both languages; It knows how to speak to Opsview in Opsview Monitor's language, and it knows how to talk to the Host in the Host's language.
 
-## How to Create a Basic Monitoring Plugin
+## Overview of a Monitoring Plugin
 
 A typical monitoring plugin will consist of the following stages:
 
@@ -32,3 +30,7 @@ To help create a monitoring plugin, the following libraries can be used to stand
 | Perl     | [perl-plugin](https://github.com/opsview/monitoring-plugin-perl) |
 | PowerShell | [powershell-plugin](https://github.com/opsview/monitoring-plugin-powershell) |
 | Python   | [python-nagiosplugin](https://pythonhosted.org/nagiosplugin/) |
+
+## Further Information
+
+For more details on what monitoring plugins are and how they work in Opsview Monitor, see our documentation on the Knowledge Base: [Monitoring Plugins](https://knowledge.opsview.com/docs/monitoring-plugins)

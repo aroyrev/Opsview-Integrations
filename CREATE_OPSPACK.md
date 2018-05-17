@@ -1,12 +1,4 @@
-# How To Create Your Own Opspack
-
-See Opsview Documentation on Creating Opspacks here: [Opspacks](https://knowledge.opsview.com/docs/host-templates-2)
-
-## What is an Opspack
-
-An Opspack is an integration in Opsview Monitor to add extra functionality by monitoring the state, performance, or system health for a particular technology or service.
-
-## Creating an Opspack in Opsview Monitor
+# How To Create Your Own Opspack in Opsview Monitor
 
 An Opspack is the same as a Host Template in Opsview Monitor. It should be possible to import an Opspack, apply it to a host and the user should need no further configuration for it to start monitoring that host.
 

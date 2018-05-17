@@ -1,18 +1,22 @@
 # What is an Opspack?
 
-## Basics of Opspacks
+An Opspack is an integration in Opsview Monitor which allows you to monitor the status, performance and system health for a particular technology or service you wish to monitor.
 
-An Opspack is an integration in Opsview Monitor to add extra functionality by monitoring the state, performance, or system health for a particular technology or service.
-
-For example, an Opspack may monitor:
+Opspacks are used as templates for how a host should be monitored and they provide multiple service checks by default to monitor the different aspects of the host. For example, an Opspack may monitor:
 
 * CPU load
-* Disk space
+* Disk capacity
 * Memory usage
 
-The aim of an Opspack is for a user to be able to add it to a host in Opsview Monitor, and it will provide everything the user needs to monitor that host without any further configuration.
+The aim of an Opspack is for a user to be able to apply it to a host in Opsview Monitor and it will provide everything the user needs to monitor that host without any further configuration.
 
-An Opspack consists of a plugin, configuration file and info file. The plugins can be written in almost any programming language and should contain the logic for how to retrieve an interpret the data from the technology/service being monitored. The config file describes how the plugins should be used. The info file just provides name and version for the Opspack.
+An Opspack consists of a monitoring plugin, configuration file and info file:
+
+* The monitoring plugin can be written in almost any programming language and contains the logic for how to retrieve and interpret the data from the technology/service being monitored
+
+* The configuration file describes how the plugins should be used and which service checks the Opspack provides
+
+* The info file provides the type of host the Opspack is for and the version number for the Opspack
 
 ## Service Checks, Metrics and Statuses
 
@@ -45,6 +49,18 @@ The output for a service check should be in the following format:
 
 The left side of the output is a status and summary message, the right side is used for performance data
 
-## How to create an Opspack
+## Where to Find Opspacks
+
+Many Opspacks are provided by default in your Opsview Monitor system and can be used straight away. Check the **Host Templates** section for Opspacks you already have available.
+
+If your Opsview Monitor system does not have an Opspack for what you need to monitor, then check our latest list of Opspacks here: [Opspacks on GitHub](https://github.com/opsview/Opsview-Integrations/blob/master/README.md)
+
+Opspacks can also be found on our website: [Opsview Integrations](https://www.opsview.com/integrations)
+
+Any Opspacks you download will have the .opspack (or .tar.gz) extension and can be imported into your Opsview Monitor system through the **Host Templates** section of Opsview Monitor.
+
+## How to Create an Opspack
+
+If you need to monitor a type of host that doesn't have an Opspack yet, then it is possible to create your own Opspack within Opsview Monitor
 
 For information on how to create your own Opspack, see the following guide: [How to create your own Opspack](https://github.com/opsview/Opsview-Integrations/blob/master/CREATE_OPSPACK.md)

@@ -126,6 +126,16 @@ Opspacks can be added to your Opsview Monitor system to easily monitor a certain
 | [Wordpress](https://github.com/opsview/application-wordpress)  | Opsview   |Monitors the access for a Wordpress instance   | [Download](https://github.com/opsview/application-wordpress/releases) |
 | [ZooKeeper](https://github.com/opsview/application-zookeeper)  | Opsview    |Checks the zookeeper server and znodes  | [Download](https://github.com/opsview/application-zookeeper/releases) |
 
+## Beta Opspacks
+
+Please note that these integrations have been made available as early release beta software and not officially supported for production use. These Beta releases are provided on an “as is” and “as available” basis. Opsview does not give any warranties, whether express or implied, as to the suitability or usability of these releases.
+
+Opsview will not be liable for any loss, whether such loss is direct, indirect, special or consequential, suffered by any party as a result of the use of any of these Beta releases
+
+| Name          | Maintainer | Description | Download  |
+|:------------- |:------------|:-----------------------|:-----:|
+| [Kubernetes](https://github.com/opsview/application-kubernetes)  | Opsview    |Monitors the performance and system health of your Kubernetes environment (BETA)  | [Download](https://github.com/opsview/application-kubernetes/releases) |
+
 ## Monitoring Libraries
 
 To help create a monitoring plugin, the following libraries can be used to standardise the output and make it as easy as possible to create your own monitoring plugin:

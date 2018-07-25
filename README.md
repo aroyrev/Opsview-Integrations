@@ -8,7 +8,7 @@ Opspacks can be added to your Opsview Monitor system to easily monitor a certain
 
 | Name | Maintainer | Description | Download |
 |:------------- |:------------|:-----------------------|:-----:|
-|[Application - Alfresco](https://github.com/Sthipinilla/application-nameopspack-beta/tree/Opsview-6.0) | Opsview |Alfresco ECM service and performance monitors | [Download](https://github.com/opsview/application-alfresco/releases) |
+|[Application - Alfresco](https://github.com/opsview/application-alfresco) | Opsview |Alfresco ECM service and performance monitors | [Download](https://github.com/opsview/application-alfresco/releases) |
 |[Application - Apache HTTP Server](https://github.com/opsview/application-apache-http-server) | Opsview |Monitors the performance and system health for all Apache servers | [Download](https://github.com/opsview/application-apache-http-server/releases) |
 |[Application - Apache Solr](https://github.com/opsview/application-apache-solr) | Opsview |Monitors the performance and system health for Apache Solr | [Download](https://github.com/opsview/application-apache-solr/releases) |
 |[Application - Apache Tomcat](https://github.com/opsview/application-apache-tomcat) | Opsview |Monitors the performance and system health for Apache Tomcat | [Download](https://github.com/opsview/application-apache-tomcat/releases) |

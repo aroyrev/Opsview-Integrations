@@ -26,7 +26,7 @@ Follow these steps to create an Opspack/Host Template within Opsview Monitor:
 
 ![Export Opspack](/docs/img/export_opspack.png)
 
-## Creating an Opspack outside of Opsview Montior
+## Creating an Opspack outside of Opsview Monitor
 
 If you don't want to use the user interface you can create your Opspack by creating the following folder structure
 

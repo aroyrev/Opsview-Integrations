@@ -27,7 +27,7 @@ An Opspack will consist of several service checks, each of them should include a
   * CRITICAL
   * UNKNOWN
 
-For example, if we were to monitor the amount of free disk space on a server, we can define what values will trigger the above statuses. The psuedocode for how our plugin would define this is as follows:
+For example, if we were to monitor the amount of free disk space on a server, we can define what values will trigger the above statuses. The pseudocode for how our plugin would define this is as follows:
 
 ```
 if (free_disk >= 10GB):

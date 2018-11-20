@@ -147,7 +147,6 @@ To help create a monitoring plugin, the following libraries can be used to stand
 |:---------|--------|
 | Go       | [go-plugin](https://github.com/opsview/go-plugin) |
 | Perl     | [perl-plugin](https://github.com/opsview/monitoring-plugin-perl) |
-| PowerShell | [powershell-plugin](https://github.com/opsview/monitoring-plugin-powershell) |
 | Python   | [python-nagiosplugin](https://pythonhosted.org/nagiosplugin/) |
 
 ## Opsview Modules

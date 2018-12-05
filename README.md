@@ -58,6 +58,7 @@ Opspacks can be added to your Opsview Monitor system to easily monitor a certain
 |[Cloud - Azure - DNS Zones](https://github.com/opsview/cloud-azure-dns-zones) | Opsview | Monitor your Azure DNS Zones | [Download](https://github.com/opsview/cloud-azure-dns-zones/releases) |
 |[Cloud - Azure - Elastic Pool](https://github.com/opsview/cloud-azure-elastic-pool) | Opsview |Monitor your Azure - Elastic Pools | [Download](https://github.com/opsview/cloud-azure-elastic-pool/releases) |
 |[Cloud - Azure - Generic](https://github.com/opsview/cloud-azure-generic) | Opsview |Monitors Azure | [Download](https://github.com/opsview/cloud-azure-generic/releases) |
+|[Cloud - Azure - Health Availability Status](https://github.com/opsview/cloud-azure-health-availability-status) | Opsview |Monitor the health status of your Azure resources | [Download](https://github.com/opsview/cloud-azure-health-availability-status/releases) |
 |[Cloud - Azure - Internet Of Things](https://github.com/opsview/cloud-azure-internet-of-things) | Opsview |Monitor Azure IOT Hubs | [Download](https://github.com/opsview/cloud-azure-internet-of-things/releases) |
 |[Cloud - Azure - Linux VMs](https://github.com/opsview/cloud-azure-linux-vms) | Opsview | Monitor your Azure Linux VMs | [Download](https://github.com/opsview/cloud-azure-linux-vms/releases) |
 |[Cloud - Azure - Load Balancers](https://github.com/opsview/cloud-azure-load-balancers) | Opsview | Monitor your Azure Load Balancers | [Download](https://github.com/opsview/cloud-azure-load-balancers/releases) |
